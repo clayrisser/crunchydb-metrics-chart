@@ -6,6 +6,8 @@ and ConfigMap needed to run the container as a Kubernetes Job. Then a job will
 be created based on `helm` `install`, or `uninstall` to install or uninstall
 metrics. After the job has completed the RBAC will be cleaned up.
 
+![](assets/crunchydb-metrics-chart.png)
+
 ## Prerequisites
 
 - Helm v3
